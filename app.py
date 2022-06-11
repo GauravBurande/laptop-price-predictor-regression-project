@@ -37,10 +37,10 @@ resolution = st.selectbox('Screen Resolution',['1920x1080','1366x768','1600x900'
 cpu = st.selectbox('CPU',df['Cpu brand'].unique())
 
 # Hard drive
-hdd = st.selectbox('HDD(in GB))',[0,128,256,512,1024,2048])
+hdd = st.selectbox('HDD(in GB)',[0,128,256,512,1024,2048])
 
 # SSD
-ssd = st.selectbox('SSD(in GB))',[0,8,128,256,512,1024])
+ssd = st.selectbox('SSD(in GB)',[0,8,128,256,512,1024])
 
 # GPU brand
 gpu = st.selectbox('GPU',df['Gpu brand'].unique())
